@@ -57,7 +57,17 @@ ul{
 .contact form p{
     margin: 0;
 }
-
+.contact .saved{
+    display: block;
+    background-color: seagreen;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: .8rem;
+    opacity: .9;
+    display: none;
+    transition: all 5s ease-in-out;
+}
 .contact form .full{
     grid-column: 1/3;
 }
@@ -72,7 +82,6 @@ ul{
     border: 0;
     text-transform: uppercase;
     cursor: pointer;
-    
 }
 .contact form button:hover, .contact form button:focus{
     background: #92bde7;

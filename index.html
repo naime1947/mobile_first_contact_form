@@ -22,27 +22,28 @@
                 </ul>
             </div>
             <div class="contact">
+                <div class="saved">Submitted. Thank you for contacting us.</div>
                 <h3>Email Us</h3>
-                <form action="" >
+                <form id="contact-form" action="" >
                     <p>
                         <label for="">Name</label>
-                        <input type="text" name="name">
+                        <input id="name" type="text" name="name">
                     </p>
                     <p>
                         <label for="">Company</label>
-                        <input type="text" name="company">
+                        <input id="company" type="text" name="company">
                     </p>
                     <p>
                         <label for="">Email Address</label>
-                        <input type="email" name="email">
+                        <input id="email" type="email" name="email">
                     </p>
                     <p>
                         <label for="">Phone Number</label>
-                        <input type="text" name="phone">
+                        <input id="phone" type="text" name="phone">
                     </p>
                     <p class="full" >
                         <label for="">Message</label>
-                        <textarea name="message" rows="5"></textarea>
+                        <textarea id="message" name="message" rows="5"></textarea>
                     </p>
                     <p class="full">
                         <button>Submit</button>
@@ -51,6 +52,9 @@
             </div>
         </div>
     </div>
-    
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.14.5/firebase-database.js"></script>
+    <script src="main.js"></script>
+
 </body>
 </html>
